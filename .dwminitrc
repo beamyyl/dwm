@@ -1,0 +1,5 @@
+xset r rate 360 25
+xwallpaper --zoom walls/wall1.jpg
+slstatus &
+picom &
+exec dwm;
