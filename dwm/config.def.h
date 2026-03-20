@@ -178,7 +178,7 @@ static char c000000[]                    = "#000000"; // placeholder value
 
 static char normfgcolor[]                = "#bbbbbb";
 static char normbgcolor[]                = "#222222";
-static char normbordercolor[]            = "#444444";
+static char normbordercolor[]            = "#222222";
 static char normfloatcolor[]             = "#7aa2f7";
 
 static char selfgcolor[]                 = "#eeeeee";
@@ -192,9 +192,9 @@ static char titlenormbordercolor[]       = "#444444";
 static char titlenormfloatcolor[]        = "#7aa2f7";
 
 static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#3b3f51";
-static char titleselbordercolor[]        = "#3b3f51";
-static char titleselfloatcolor[]         = "#3b3f51";
+static char titleselbgcolor[]            = "#222222";
+static char titleselbordercolor[]        = "#222222";
+static char titleselfloatcolor[]         = "#222222";
 
 static char tagsnormfgcolor[]            = "#bbbbbb";
 static char tagsnormbgcolor[]            = "#222222";
