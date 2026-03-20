@@ -182,9 +182,9 @@ static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
 
 static char selfgcolor[]                 = "#eeeeee";
-static char selbgcolor[]                 = "#005577";
-static char selbordercolor[]             = "#005577";
-static char selfloatcolor[]              = "#005577";
+static char selbgcolor[]                 = "#3b3f51";
+static char selbordercolor[]             = "#3b3f51";
+static char selfloatcolor[]              = "#3b3f51";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#222222";
@@ -192,9 +192,9 @@ static char titlenormbordercolor[]       = "#444444";
 static char titlenormfloatcolor[]        = "#db8fd9";
 
 static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#005577";
-static char titleselbordercolor[]        = "#005577";
-static char titleselfloatcolor[]         = "#005577";
+static char titleselbgcolor[]            = "#3b3f51";
+static char titleselbordercolor[]        = "#3b3f51";
+static char titleselfloatcolor[]         = "#3b3f51";
 
 static char tagsnormfgcolor[]            = "#bbbbbb";
 static char tagsnormbgcolor[]            = "#222222";
@@ -202,12 +202,12 @@ static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
 
 static char tagsselfgcolor[]             = "#eeeeee";
-static char tagsselbgcolor[]             = "#005577";
-static char tagsselbordercolor[]         = "#005577";
-static char tagsselfloatcolor[]          = "#005577";
+static char tagsselbgcolor[]             = "#3b3f51";
+static char tagsselbordercolor[]         = "#3b3f51";
+static char tagsselfloatcolor[]          = "#3b3f51";
 
-static char hidnormfgcolor[]             = "#005577";
-static char hidselfgcolor[]              = "#227799";
+static char hidnormfgcolor[]             = "#3b3f51";
+static char hidselfgcolor[]              = "#3b3f51";
 static char hidnormbgcolor[]             = "#222222";
 static char hidselbgcolor[]              = "#222222";
 
@@ -1551,10 +1551,10 @@ static const Button buttons[] = {
 	{ ClkClientWin,         MODKEY,              Button7,        resizemousescroll, {.v = &scrollargs[3]} },
 	#endif // TAPRESIZE_PATCH
 	#if DRAGCFACT_PATCH && CFACTS_PATCH
-	{ ClkClientWin,         MODKEY|ShiftMask,    Button3,        dragcfact,      {0} },
+	{ ClkClientWin,         MODKEY|ShiftMask,    Button1,        dragcfact,      {0} },
 	#endif // DRAGCFACT_PATCH
 	#if DRAGMFACT_PATCH
-	{ ClkClientWin,         MODKEY|ShiftMask,    Button1,        dragmfact,      {0} },
+	{ ClkClientWin,         MODKEY|ShiftMask,    Button3,        dragmfact,      {0} },
 	#endif // DRAGMFACT_PATCH
 	{ ClkTagBar,            0,                   Button1,        view,           {0} },
 	{ ClkTagBar,            0,                   Button3,        toggleview,     {0} },
