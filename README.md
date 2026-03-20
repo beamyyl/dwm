@@ -8,17 +8,17 @@ sudo pacman -S base-devel libx11 libxft libxinerama git alacritty pcmanfm rofi m
 
 **Fedora**
 ```bash
-sudo dnf install gcc make libX11-devel libXft-devel libXinerama-devel git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber iosevka-comfy-fonts
+sudo dnf install gcc make libX11-devel libXft-devel libXinerama-devel git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber
 ```
 
 **Debian/Ubuntu**
 ```bash
-sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber fonts-iosevka
+sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber
 ```
 
 **Gentoo**
 ```bash
-sudo emerge -av x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama dev-vcs/git x11-terms/alacritty x11-misc/pcmanfm x11-misc/rofi x11-misc/maim x11-misc/xclip sys-power/brightnessctl media-video/wireplumber media-fonts/iosevka
+sudo emerge -av x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama dev-vcs/git x11-terms/alacritty x11-misc/pcmanfm x11-misc/rofi x11-misc/maim x11-misc/xclip sys-power/brightnessctl media-video/wireplumber
 ```
 
 ## Install
