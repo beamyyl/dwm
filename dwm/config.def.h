@@ -909,6 +909,7 @@ static const char *dmenucmd[] = {
 	NULL
 };
 static const char *termcmd[]  = { "alacritty", NULL };
+// static const char *termcmd[]  = { "st", NULL };
 static const char *filecmd[]  = { "pcmanfm", NULL };
 static const char *roficmd[]  = { "rofi", "-show", "drun", NULL };
 
