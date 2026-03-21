@@ -1,5 +1,5 @@
-# This dwm config brings back i3 / hyprland behaviour, where you can move windows with Super LMB and resize with Super Shift RMB without putting them in floating.
-## Dependencies
+### This dwm config brings back i3 / hyprland behaviour, where you can move windows with Super LMB and resize with Super Shift RMB without putting them in floating.
+# Installation guide + dependencies:
 
 **Arch**
 ```bash
