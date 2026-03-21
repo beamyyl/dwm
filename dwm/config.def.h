@@ -908,8 +908,8 @@ static const char *dmenucmd[] = {
 	#endif // BAR_DMENUMATCHTOP_PATCH
 	NULL
 };
-static const char *termcmd[]  = { "alacritty", NULL };
-// static const char *termcmd[]  = { "st", NULL };
+// static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *filecmd[]  = { "pcmanfm", NULL };
 static const char *roficmd[]  = { "rofi", "-show", "drun", NULL };
 
