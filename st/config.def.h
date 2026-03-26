@@ -76,7 +76,7 @@ static const char *colorname[] = {
     "#7aa2f7", /* 4: Blue */
     "#bb9af7", /* 5: Magenta */
     "#7dcfff", /* 6: Cyan */
-    "#a9b1d6", /* 7: White (TokyoNight Blue-Grey White) */
+    "#c0caf5", /* 7: White (TokyoNight Blue-Grey White) */
 
     /* 8 bright colors */
     "#414868", /* 8: Bright Black */
@@ -91,7 +91,7 @@ static const char *colorname[] = {
     [255] = 0,
 
     /* Custom high-contrast indices */
-    "#ffffff", /* 256: Pure White (Primary Foreground) */
+    "#c0caf5", /* 256: White (Primary Foreground) */
     "#1a1b26", /* 257: TokyoNight Storm (Primary Background) */
     "#cccccc", /* 258: Cursor */
     "#555555", /* 259: Reverse Cursor */
