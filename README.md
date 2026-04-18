@@ -25,6 +25,7 @@ sudo emerge -av x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama dev-vcs/git
 ```bash
 cd dwm && sudo make clean install
 cd ../slstatus && sudo make clean install
+cd ../st && sudo make clean install
 ```
 
 Add to your `~/.xinitrc`:
