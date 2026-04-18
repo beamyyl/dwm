@@ -1,4 +1,4 @@
-MY daily suckless dots, what else can I say.
+My suckless dots, what else can I say.
 # Installation guide + dependencies:
 
 **Arch**
