@@ -3,29 +3,27 @@ My suckless dots, what else can I say.
 
 **Arch**
 ```bash
-sudo pacman -S base-devel libx11 libxft libxinerama git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber ttf-iosevka-nerd
+sudo pacman -S base-devel libx11 libxft libxinerama
 ```
 
 **Fedora**
 ```bash
-sudo dnf install gcc make libX11-devel libXft-devel libXinerama-devel git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber
+sudo dnf install gcc make libX11-devel libXft-devel libXinerama-devel
 ```
 
 **Debian/Ubuntu**
 ```bash
-sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev git alacritty pcmanfm rofi maim xclip brightnessctl wireplumber
+sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev
 ```
 
 **Gentoo**
 ```bash
-sudo emerge -av x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama dev-vcs/git x11-terms/alacritty x11-misc/pcmanfm x11-misc/rofi x11-misc/maim x11-misc/xclip sys-power/brightnessctl media-video/wireplumber
+sudo emerge -av x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama
 ```
 
 ## Install
 ```bash
-cd dwm && sudo make clean install
-cd ../slstatus && sudo make clean install
-cd ../st && sudo make clean install
+cd dwm && chmod +x setupdwm.sh && sudo ./setupdwm.sh
 ```
 
 Add to your `~/.xinitrc`:
