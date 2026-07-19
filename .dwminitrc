@@ -1,8 +1,5 @@
-export XDG_CURRENT_DESKTOP=dwm
-export XDG_SESSION_DESKTOP=dwm
-dbus-update-activation-environment --systemd XDG_CURRENT_DESKTOP XDG_SESSION_DESKTOP
 xset r rate 360 25
 xwallpaper --zoom walls/wall2.jpg
 slstatus &
 picom &
-exec dbus-launch --sh-syntax --exit-with-session dwm
+exec dbus-run-session dwm;
